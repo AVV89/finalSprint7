@@ -35,7 +35,7 @@ public class CreateOrderTest {
 
     @DisplayName("Check order can be created")
     @Test
-    public void CreateOrderWithColorTest() {
+    public void createOrderWithColorTest() {
         OrderData orderData;
 
         if (!color.isEmpty()) {

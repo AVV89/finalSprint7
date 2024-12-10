@@ -12,7 +12,7 @@ public class GetOrdersTest {
 
 
     @Test
-    public void CreateOrderWithColorTest() {
+    public void createOrderWithColorTest() {
 
         OrderApi orderApi = new OrderApi();
         ValidatableResponse response = orderApi.getOrders();
